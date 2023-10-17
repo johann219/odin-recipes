@@ -7,16 +7,17 @@
 }
 
 .garlic-bread {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(219, 204, 136);
 }
 
 .noodle-soup {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(239, 241, 107);
 }
 
 .shakshuka {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(214, 155, 66);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
