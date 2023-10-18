@@ -27,25 +27,23 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.entry {
-    text-align: center;
-    width: 220px;
-    height: 246px;
-    background-color: rgb(228, 220, 155);
-    border: 2px solid black;
-    padding: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+.recipes-entries {
+  display: flex;
+  justify-content: center;
 }
 
-.entry-link {
-    font-size: 16px;
+.entry {
+  background-color: blanchedalmond;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  border: 2px solid black;
+  margin: 16px;
 }
 
 .entry-display {
-    display: block;
-    height: 200px;
-    width: 200px;
-    margin-top: 8px;
+  width: 200px;
+  margin-top: 8px;
 }
