@@ -7,6 +7,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .title {
     text-align: center;
 }
@@ -23,27 +27,20 @@ html {
     background-color: rgb(214, 155, 66);
 }
 
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.recipes-entries {
+.recipe-entries {
   display: flex;
-  justify-content: center;
+  background-color: aliceblue;
+  gap: 16px;
+  justify-content: space-evenly;
 }
 
 .entry {
-  background-color: blanchedalmond;
   display: flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  padding: 8px;
   border: 2px solid black;
-  margin: 16px;
+  flex-direction: column;
+  width: 200px;
 }
 
-.entry-display {
-  width: 200px;
-  margin-top: 8px;
+.link {
+  align-self: center;
 }
